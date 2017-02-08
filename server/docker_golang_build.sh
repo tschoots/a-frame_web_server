@@ -9,7 +9,7 @@ docker rmi $_IMAGE:$_TAG
 
 
 echo "build executable"
-docker run --rm -v $(pwd):/usr/src/myapp -w /usr/src/myapp golang:$GO_VERSION bash -c ./build.sh
+docker run --rm -v $(pwd):/usr/src/myapp -w /usr/src/myapp golang:$_GO_VERSION bash -c ./build.sh
 
 echo "building new image"
 docker build -t $_IMAGE:$_TAG .
