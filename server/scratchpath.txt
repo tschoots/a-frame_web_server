@@ -1,0 +1,5 @@
+#to allow port 8080 on ubuntu machine
+sudo ufw allow 8080/tcp
+
+#remove rule from ubuntu machine
+sudo ufw delete allow 8080/tcp

@@ -2,7 +2,7 @@
 
 _GO_VERSION=1.7.5
 _IMAGE='maiastra/a-frame_web_server'
-_TAG='0.1'
+_TAG='0.2'
 
 echo "remove the local image $_IMAGE:$_TAG"
 docker rmi $_IMAGE:$_TAG
