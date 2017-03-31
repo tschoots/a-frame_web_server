@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_GO_VERSION=1.7.5
+_GO_VERSION=1.8
 _IMAGE='maiastra/a-frame_web_server'
 _TAG='0.2'
 
